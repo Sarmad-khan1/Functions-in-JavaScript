@@ -1,0 +1,29 @@
+console.log("This is functions of a javaScript");
+
+
+function greet(name){
+    console.log(name + " is a good developer"); 
+}
+
+
+
+let name="Harry";
+let name1="EE";
+let name2="archi";
+let name3="cs";
+let name4="anoymous";
+
+greet(name1);
+greet(name2);
+greet(name3);
+greet(name4);
+
+
+
+
+
+// console.log( name + " is good developer");
+// console.log( name1 + " is good developer");
+// console.log( name2 + " is good developer");
+// console.log( name3 + " is good developer");
+// console.log( name4 + " is good developer");
