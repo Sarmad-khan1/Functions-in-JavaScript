@@ -1,0 +1,116 @@
+function greet(name, greetings){
+    console.log(greetings + " " + name);
+}
+let greetings = "Hello, How're you doing!!!";
+let name = "Anonymous";
+greet(name, greetings);
+
+
+// Function Example-2:
+
+function multiply(a,b=2){
+    let m = a*b;
+    return m;
+    }
+    let returnvalue1 = multiply(3,2);
+    console.log(returnvalue1);
+
+    // Function Example-3:
+
+    function add(a,b){
+        let c = a+b;
+        return c;
+    }
+    let valuereturn2 = add(5,6);
+    console.log(valuereturn2);
+
+    // Function Example-4:
+
+    function minus(a,b,c){
+        let d = a-b+c;
+        return d;
+    }
+    let valuereturn3 = minus(34,6868,99);
+    console.log(valuereturn3);
+
+    // Function Example-5:
+    function square(num){
+        let sq = num*num;
+        return sq;
+    }
+    let valuereturn4 = square(5);
+    console.log(valuereturn4);
+
+    // Function Example-6:
+    function greetUser(nameq) {
+        return `Hello, ${nameq}!`;
+    }
+    let nameq = "Anonymous";
+    console.log(nameq);
+
+    // Conditional Function to check even and odd Example-7:
+
+    function condition(num){
+        if(num%2 == 0){
+            let a = "Even";
+            return a;
+
+        } 
+        if(num%2 != 0){
+            let b = "Odd";
+            return b;
+        }
+    }
+    let valuereturn5 = condition(9);
+    console.log(valuereturn5);
+
+    // Loop in Javascript Example-8:
+
+    function countTo(num){
+        let sum=0;
+        for(let i=1; i<=num; i=i+1){
+             sum=sum+i;
+            }
+            return sum;
+    }
+    let valuereturn6 = countTo(10);
+    console.log(valuereturn6);
+
+
+    // Example-9:
+
+    function adding(numbers){
+        let addition=0;
+        for(let i=1; i<=numbers; i++){
+            addition = addition +i;
+        }
+        return addition;
+    }
+    let valuereturn7 = adding(15);
+    console.log(valuereturn7);
+
+
+    // Example-10:
+
+
+    function subtracting(numbers){
+        let minus=0;
+       for(let i=numbers; i!=0; i--){
+            minus = minus - i
+       }
+       return minus;
+    }
+    let valuereturn8 = subtracting(2);
+    console.log(valuereturn8);
+
+    // Exampe-11:
+
+    let abc = [12, 34, 56, 87];
+    let sum=0;
+    for(let i=1; i<abc.length; i++){
+        sum=sum+abc[i]}
+        console.log(sum);
+    
+        // Example-12:
+
+    
